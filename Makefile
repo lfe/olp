@@ -1,6 +1,6 @@
 REBAR3 = PATH=.:$(PATH) rebar3
 RELX = PATH=.:$(PATH) relx
-REPL_RPEO = https://github.com/erlware/relx.git
+RELX_REPO = https://github.com/erlware/relx.git
 RELX_DIR = relx-repo
 RELX_BUILD_PATH = $(RELX_DIR)/_build/default/bin
 
