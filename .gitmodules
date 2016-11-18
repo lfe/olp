@@ -1,0 +1,9 @@
+[submodule "lfe"]
+	path = lfe
+	url = git@github.com:rvirding/lfe
+[submodule "lib/ltest"]
+	path = lib/ltest
+	url = git@github.com:lfex/ltest
+[submodule "lib/lutil"]
+	path = lib/lutil
+	url = git@github.com:lfex/lutil
