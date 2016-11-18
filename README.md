@@ -51,7 +51,7 @@ for exploration (e.g., OLP and git submodules) is here:
 
 ## Updating [&#x219F;](#contents)
 
-If you have already an OLP repo set up with LFE and libraries pulled down, but
+If you already have an OLP repo set up with LFE and libraries pulled down, but
 you want to bring in the latest changes (i.e., update the submodules), you can
 run this target:
 
