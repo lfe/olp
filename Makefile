@@ -12,7 +12,10 @@ all: sources
 clean:
 	rebar3 clean
 	cd lfe && make clean
-	rm -rf $(OLP_BUILD_PATHS)/rel
+	rm -rf $(OLP_BUILD_PATHS)/rel rebar.lock
+
+clean-all: clean
+	rm -rf _build
 
 sources:
 	git submodule init
