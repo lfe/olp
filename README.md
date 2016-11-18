@@ -4,7 +4,7 @@ OLP is the Open LFE Platform, an OTP-style release build of LFE and supported
 community libraries, packaged together in the same way that the Erlang Runtime
 System and various Erlang libraries are packaged together.
 
-HERE THERE BE DRAGONS: This is an experimental work in progres. The ticket that
+HC SVNT DRACONES: This is an experimental work in progres. The ticket that
 is tracking this work at a high-level from the LFE perspective is here:
  * https://github.com/rvirding/lfe/issues/300
  
