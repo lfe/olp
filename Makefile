@@ -4,6 +4,9 @@ RELX_REPO = https://github.com/erlware/relx.git
 RELX_DIR = relx-repo
 RELX_BUILD_PATH = $(RELX_DIR)/_build/default/bin
 
+all: sources
+	$(REBAR3) release
+
 sources:
 	git submodule init
 	git submodule update

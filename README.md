@@ -45,8 +45,22 @@ for exploration (e.g., OLP and git submodules) is here:
 
 ## Build Steps [&#x219F;](#contents)
 
+Preparation:
+
 1. Clone the repo: `git clone git@github.com:lfe/olp.git`
-1. Pull down the submodules: `make sources`
+1. Change directory to the `olp` dir: `cd old`
+
+
+Automated build:
+
+1. Build: `make`
+
+
+If you would prefer to execute the steps manually, they are as follows:
+
+1. `git submodule init`
+1. `git submodule update`
+1. `rebar3 release`
 
 
 ## Updating [&#x219F;](#contents)
