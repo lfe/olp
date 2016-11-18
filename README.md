@@ -12,6 +12,14 @@ The ticket that is tracking the lower-level tasks of this particular avenue
 for exploration (e.g., OLP and git submodules) is here:
  * https://github.com/lfe/olp/issues/1
 
+## Dependencies
+
+* Erlang
+* `git`
+* `rebar`
+* `relx`
+* `make`
+
 ## Build Steps
 
 1. Clone the repo: `git clone git@github.com:lfe/olp.git`
