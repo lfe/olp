@@ -37,5 +37,5 @@ setup-relx:
 	mv $(RELX_BUILD_PATH)/relx .
 	rm -rf $(RELX_DIR)
 
-travis-build: setup-rebar3 setup-relx sources
+travis-build: setup-rebar3 setup-relx all
 
