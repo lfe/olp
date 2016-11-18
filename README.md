@@ -15,7 +15,9 @@
 * [Introduction](#introduction-)
 * [Dependencies](#dependencies-)
 * [Build Steps](#build-steps-)
-* [Updating](#updating-)
+* [For Developers](#for-developers-)
+  * [Adding New Libs](#adding-new-libs-)
+  * [Updating Libs](#updating-libs-)
 * [License](#license-)
 
 
@@ -63,7 +65,21 @@ If you would prefer to execute the steps manually, they are as follows:
 1. `rebar3 release`
 
 
-## Updating [&#x219F;](#contents)
+## For Developers [&#x219F;](#contents)
+
+### Adding New Libs [&#x219F;](#contents)
+
+Assuming that the library you want to add is in the LFEX Github org, the
+following will add the lib as a submodule to this project:
+
+```
+$ OLP_LIB=mylib make add-lib
+```
+
+That make target will also commit that lib to the repo.
+
+
+### Updating Libs [&#x219F;](#contents)
 
 If you already have an OLP repo set up with LFE and libraries pulled down, but
 you want to bring in the latest changes (i.e., update the submodules), you can
