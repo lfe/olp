@@ -16,6 +16,7 @@
 * [Dependencies](#dependencies-)
 * [Build Steps](#build-steps-)
 * [For Developers](#for-developers-)
+  * [References](#references-)
   * [Adding New Libs](#adding-new-libs-)
   * [Updating Libs](#updating-libs-)
 * [License](#license-)
@@ -71,6 +72,13 @@ If you would prefer to execute the steps manually, they are as follows:
 
 
 ## For Developers [&#x219F;](#contents)
+
+
+### References [&#x219F;](#contents)
+
+* https://www.rebar3.org/docs/releases
+* https://github.com/erlware/relx/wiki/Configuration
+
 
 ### Adding New Libs [&#x219F;](#contents)
 
