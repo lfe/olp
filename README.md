@@ -25,7 +25,7 @@
 
 [![Here There Be Dragons][here there be dragons]][here there be dragons large]
 
-HC SVNT DRACONES: This is an experimental work in progres. The ticket that
+WARNING: This is an experimental work in progres. The ticket that
 is tracking this work at a high-level from the LFE perspective is here:
  * https://github.com/rvirding/lfe/issues/300
 
