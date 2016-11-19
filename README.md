@@ -89,6 +89,7 @@ If you would prefer to execute the steps manually, they are as follows:
 1. `git submodule init`
 1. `git submodule update`
 1. `rebar3 release`
+1. `rebar3 tar`
 
 
 ## For Developers [&#x219F;](#contents)

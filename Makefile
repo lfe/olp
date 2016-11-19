@@ -8,6 +8,7 @@ OLP_BUILD_PATHS = _build/*
 
 all: sources
 	$(REBAR3) release
+	$(REBAR3) tar
 
 clean:
 	rebar3 clean
