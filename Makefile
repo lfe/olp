@@ -5,9 +5,14 @@ RELX_DIR = relx-repo
 RELX_BUILD_PATH = $(RELX_DIR)/_build/default
 LFEX_ORG = https://github.com/lfex
 OLP_BUILD_PATHS = _build/*
+OLP_REL = _build/default/rel/olp
+OLP_BIN = $(OLP_REL)/bin
 
 all: sources
 	$(REBAR3) release
+	rm $(OLP_BIN)/start_clean.boot
+
+tarball:
 	$(REBAR3) tar
 
 clean:

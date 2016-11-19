@@ -89,7 +89,13 @@ If you would prefer to execute the steps manually, they are as follows:
 1. `git submodule init`
 1. `git submodule update`
 1. `rebar3 release`
+
+Or, if you want to create a tarball to ship:
+
 1. `rebar3 tar`
+
+Note that if using the `tar` command, you don't need to run the `release`
+command.
 
 
 ## For Developers [&#x219F;](#contents)
