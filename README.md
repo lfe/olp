@@ -21,19 +21,24 @@
 * [License](#license-)
 
 
+## HC SVNT DRACONES [&#x219F;](#contents)
+
+[![Here There Be Dragons][here there be dragons]][here there be dragons large]
+
+HC SVNT DRACONES: This is an experimental work in progres. The ticket that
+is tracking this work at a high-level from the LFE perspective is here:
+ * https://github.com/rvirding/lfe/issues/300
+
+The ticket that is tracking the lower-level tasks of this particular avenue
+for exploration (e.g., OLP and git submodules) is here:
+ * https://github.com/lfe/olp/issues/1
+
+
 ## Introduction [&#x219F;](#contents)
 
 OLP is the Open LFE Platform, an OTP-style release build of LFE and supported
 community libraries, packaged together in the same way that the Erlang Runtime
 System and various Erlang libraries are packaged together.
-
-HC SVNT DRACONES: This is an experimental work in progres. The ticket that
-is tracking this work at a high-level from the LFE perspective is here:
- * https://github.com/rvirding/lfe/issues/300
- 
-The ticket that is tracking the lower-level tasks of this particular avenue
-for exploration (e.g., OLP and git submodules) is here:
- * https://github.com/lfe/olp/issues/1
 
 
 ## Dependencies [&#x219F;](#contents)
@@ -98,8 +103,10 @@ Copyright (c) 2016 Robert Virding
 
 <!-- Named page links below: /-->
 
-[logo]: resources/images/hic-sunt-dracons-interior-2-small.jpg
-[logo-large]: resources/images/hic-sunt-dracons-interior-2.jpg
+[logo]: priv/images/logo.png
+[logo-large]: priv/images/logo-large.png
+[here there be dragons]: priv/images/hic-sunt-dracons-interior-2-small.jpg
+[here there be dragons large]: priv/images/hic-sunt-dracons-interior-2.jpg
 [org]: https://github.com/lfe
 [github]: https://github.com/lfe/olp
 [gitlab]: https://gitlab.com/lfe/olp
