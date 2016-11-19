@@ -26,13 +26,33 @@
 
 [![Here There Be Dragons][here there be dragons]][here there be dragons large]
 
-WARNING: This is an experimental work in progres. The ticket that
+WARNING: This is an experimental work in progres.
+
+
+### LFE Upstream
+
+The ticket that
 is tracking this work at a high-level from the LFE perspective is here:
  * https://github.com/rvirding/lfe/issues/300
 
+
+### OLP Project
+
+
+#### Meta Ticket
+
 The ticket that is tracking the lower-level tasks of this particular avenue
 for exploration (e.g., OLP and git submodules) is here:
+
  * https://github.com/lfe/olp/issues/1
+
+
+#### Project Page
+
+Here's the Github Scrum board for getting an initial release of OLP out the
+door:
+
+ * https://github.com/lfe/olp/projects/1
 
 
 ## Introduction [&#x219F;](#contents)
