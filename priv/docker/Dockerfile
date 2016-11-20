@@ -6,6 +6,7 @@ MAINTAINER LFE Maintainers <maintainers@lfe.io>
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update
+RUN apt-get install -y openssl
 
 COPY tmp/olp /opt/olp
 ENV ERL_LIBS=$ERL_LIBS:/opt/olp/lib
