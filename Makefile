@@ -8,6 +8,9 @@ OLP_BUILD_PATHS = _build/*
 OLP_REL = _build/default/rel/olp
 OLP_BIN = $(OLP_REL)/bin
 DOCKER_DIR = priv/docker
+DOCKER_TAG_NAME = lfex/olp
+DOCKER_TAG_VERSION = latest
+DOCKER_TAG = $(DOCKER_TAG_NAME):$(DOCKER_TAG_VERSION)
 
 all: sources
 	$(REBAR3) release
@@ -59,11 +62,14 @@ travis-build: setup-rebar3 setup-relx all
 docker-build: all
 	mkdir -p $(DOCKER_DIR)/tmp
 	cp -r $(OLP_REL) $(DOCKER_DIR)/tmp
-	docker build -t lfex/lfe-release:latest $(DOCKER_DIR)
+	docker build -t $(DOCKER_TAG) $(DOCKER_DIR)
 	rm -rf $(DOCKER_DIR)/tmp
 
 docker-run:
-	docker run -i -t lfex/lfe-release:latest
+	docker run -i -t $(DOCKER_TAG)
 
 docker-run-bash:
-	docker run -i -t lfex/lfe-release:latest bash
+	docker run -i -t $(DOCKER_TAG) bash
+
+docker-publish:
+	docker push $(DOCKER_TAG)
