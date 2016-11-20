@@ -10,3 +10,6 @@
 [submodule "lib/exemplar"]
 	path = lib/exemplar
 	url = https://github.com/lfex/exemplar
+[submodule "lib/complex"]
+	path = lib/complex
+	url = https://github.com/lfex/complex
