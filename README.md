@@ -108,6 +108,12 @@ There is also a [Docker option for LFE/OLP][docker olp], currently built on Ubun
 $ docker pull lfex/olp
 ```
 
+Running an LFE REPL in a dockerized OLP release:
+
+```
+$ docker run -it lfex/olp
+```
+
 Size comparison of Docker images:
 
  * Ubuntu 16.04, raw:       127.2 MB
