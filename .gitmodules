@@ -16,3 +16,6 @@
 [submodule "lib/horatio"]
 	path = lib/horatio
 	url = https://github.com/lfex/horatio
+[submodule "lib/kla"]
+	path = lib/kla
+	url = https://github.com/lfex/kla
