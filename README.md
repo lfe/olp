@@ -126,21 +126,21 @@ Size comparison of Docker images:
 
 ### Adding New Libs [&#x219F;](#contents)
 
-Assuming that the library you want to add is in the LFEX Github org, the
-following will add the lib as a submodule to this project:
+Assuming that the library you want to add is in the [LFEX Github org][lfex org], the
+following will add the lib as a git submodule to this project:
 
 ```
 $ OLP_LIB=mylib make add-lib
 ```
 
-That make target will also commit that lib to the repo.
+That make target will also commit the submodule change to the repo.
 
 
 ### Updating Libs [&#x219F;](#contents)
 
-If you already have an OLP repo set up with LFE and libraries pulled down, but
-you want to bring in the latest changes (i.e., update the submodules), you can
-run this target:
+If you already have an OLP working directory set up with LFE and libraries
+pulled down, but you want to bring in the latest changes (i.e., update the
+submodules), you can run this target:
 
 ```
 $ make update-sources
@@ -160,7 +160,8 @@ Copyright (c) 2016 Robert Virding
 [logo-large]: priv/images/logo-large.png
 [here there be dragons]: priv/images/hic-sunt-dracons-interior-2-small.jpg
 [here there be dragons large]: priv/images/hic-sunt-dracons-interior-2.jpg
-[org]: https://github.com/lfe
+[lfe org]: https://github.com/lfe
+[lfex org]: https://github.com/lfex
 [github]: https://github.com/lfe/olp
 [gitlab]: https://gitlab.com/lfe/olp
 [travis]: https://travis-ci.org/lfe/olp
