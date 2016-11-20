@@ -14,7 +14,6 @@ DOCKER_TAG = $(DOCKER_TAG_NAME):$(DOCKER_TAG_VERSION)
 
 all: sources
 	$(REBAR3) release
-	@#rm $(OLP_BIN)/start_clean.boot
 
 tarball:
 	$(REBAR3) tar
