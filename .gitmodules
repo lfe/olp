@@ -19,3 +19,6 @@
 [submodule "lib/kla"]
 	path = lib/kla
 	url = https://github.com/lfex/kla
+[submodule "lib/lcfg"]
+	path = lib/lcfg
+	url = https://github.com/lfex/lcfg
