@@ -13,3 +13,6 @@
 [submodule "lib/complex"]
 	path = lib/complex
 	url = https://github.com/lfex/complex
+[submodule "lib/horatio"]
+	path = lib/horatio
+	url = https://github.com/lfex/horatio
