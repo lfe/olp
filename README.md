@@ -16,7 +16,7 @@
 * [Dependencies](#dependencies-)
 * [Build Steps](#build-steps-)
 * [Docker](#docker-)
-* [For Developers](#for-developers-)
+* [For OLP Developers](#for-developers-)
   * [References](#references-)
   * [Adding New Libs](#adding-new-libs-)
   * [Updating Libs](#updating-libs-)
@@ -114,7 +114,7 @@ Size comparison of Docker images:
  * LFE, build tools, etc.:  879.6 MB
 
 
-## For Developers [&#x219F;](#contents)
+## For OLP Developers [&#x219F;](#contents)
 
 
 ### References [&#x219F;](#contents)
