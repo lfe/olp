@@ -34,6 +34,7 @@ WARNING: This is an experimental work in progres.
 
 The ticket that
 is tracking this work at a high-level from the LFE perspective is here:
+
  * https://github.com/rvirding/lfe/issues/300
 
 
@@ -77,7 +78,7 @@ System and various Erlang libraries are packaged together.
 Preparation:
 
 1. Clone the repo: `git clone git@github.com:lfe/olp.git`
-1. Change directory to the `olp` dir: `cd old`
+1. Change directory to the `olp` dir: `cd olp`
 
 
 Automated build:
