@@ -24,7 +24,7 @@ clean:
 	cd lfe && make clean
 	rm -rf $(OLP_BUILD_PATHS)/rel rebar.lock
 
-clean-all: clean
+clean-all: clean docker-clean
 	rm -rf _build
 
 sources:
@@ -73,3 +73,7 @@ docker-run-bash:
 
 docker-publish:
 	docker push $(DOCKER_TAG)
+
+docker-clean:
+	@-docker rm `docker ps -a -q`
+	@-docker rmi `docker images -q --filter 'dangling=true'`
