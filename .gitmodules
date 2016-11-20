@@ -22,3 +22,6 @@
 [submodule "lib/lcfg"]
 	path = lib/lcfg
 	url = https://github.com/lfex/lcfg
+[submodule "lib/ljson"]
+	path = lib/ljson
+	url = https://github.com/lfex/ljson
