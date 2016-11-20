@@ -15,6 +15,7 @@
 * [Introduction](#introduction-)
 * [Dependencies](#dependencies-)
 * [Build Steps](#build-steps-)
+* [Docker](#docker-)
 * [For Developers](#for-developers-)
   * [References](#references-)
   * [Adding New Libs](#adding-new-libs-)
@@ -98,6 +99,21 @@ Note that if using the `tar` command, you don't need to run the `release`
 command.
 
 
+## Docker [&#x219F;](#contents)
+
+There is also a [Docker option for LFE/OLP][docker olp], currently built on Ubuntu 16.04:
+
+```
+$ docker pull lfex/olp
+```
+
+Size comparison of Docker images:
+
+ * Ubuntu 16.04, raw:       127.2 MB
+ * LFE/OLP, openssl:        191.6 MB
+ * LFE, build tools, etc.:  879.6 MB
+
+
 ## For Developers [&#x219F;](#contents)
 
 
@@ -155,3 +171,4 @@ Copyright (c) 2016 Robert Virding
 [github tags]: https://github.com/lfe/olp/tags
 [github tags badge]: https://img.shields.io/github/tag/lfe/olp.svg
 [github downloads]: https://img.shields.io/github/downloads/lfe/olp/total.svg
+[docker olp]: https://hub.docker.com/r/lfex/olp/
