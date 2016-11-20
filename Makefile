@@ -5,18 +5,31 @@ RELX_DIR = relx-repo
 RELX_BUILD_PATH = $(RELX_DIR)/_build/default
 LFEX_ORG = https://github.com/lfex
 OLP_BUILD_PATHS = _build/*
+LFE_BUILD_DIR = _build/default/lib/lfe
 OLP_REL = _build/default/rel/olp
 OLP_BIN = $(OLP_REL)/bin
 DOCKER_DIR = priv/docker
 DOCKER_TAG_NAME = lfex/olp
 DOCKER_TAG_VERSION = latest
 DOCKER_TAG = $(DOCKER_TAG_NAME):$(DOCKER_TAG_VERSION)
+PATCHES_DIR = $(shell pwd)/priv/patches
+LFE_BANNER_PATCH = $(PATCHES_DIR)/olp-banner.patch
+PATCH_BANNER = $(PATCHES_DIR)/olp-banner.applied-patch
 
-all: sources
+all: sources build $(PATCH_BANNER)
 	$(REBAR3) release
 
-tarball:
+tarball: $(PATCH_BANNER)
 	$(REBAR3) tar
+
+build:
+	$(REBAR3) compile
+
+$(PATCH_BANNER):
+	cd $(LFE_BUILD_DIR) && \
+	patch -p1 < $(LFE_BANNER_PATCH) && \
+	$(REBAR3) compile
+	touch $(PATCH_BANNER)
 
 clean:
 	rebar3 clean

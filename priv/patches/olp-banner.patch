@@ -1,0 +1,31 @@
+diff --git a/src/lfe_shell.erl b/src/lfe_shell.erl
+index 7319ab7..3403d48 100644
+--- a/src/lfe_shell.erl
++++ b/src/lfe_shell.erl
+@@ -219,6 +219,26 @@ read_expression_1(Rdr, Eval, St) ->
+     end.
+ 
+ make_banner() ->
++    olp_banner() ++ lfe_banner().
++
++get_olp_version () ->
++    case application:load(olp) of
++        ok -> extract_olp_version();
++        {ok, _} -> extract_olp_version();
++        {_, {already_loaded, _}} -> extract_olp_version();
++        _ -> 'unknown-version'
++    end.
++
++extract_olp_version() ->
++    case application:get_key(olp, vsn) of
++        {ok, Vsn} -> "v" ++ Vsn;
++        _ -> 'unknown-version'
++    end.
++
++olp_banner() ->
++    [io_lib:format("LFE/OLP ~s\n\n", [get_olp_version()])].
++
++lfe_banner() ->
+     [io_lib:format(
+        ?GRN("   ..-~~") ++ ?YLW(".~~_") ++ ?GRN("~~---..") ++ "\n" ++
+        ?GRN("  (      ") ++ ?YLW("\\\\") ++ ?GRN("     )") ++ "    |   A Lisp-2+ on the Erlang VM\n" ++

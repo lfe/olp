@@ -1,3 +1,4 @@
 _build
 rebar.lock
 rebar*.*dump
+priv/patches/*applied*
