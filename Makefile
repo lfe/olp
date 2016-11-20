@@ -37,7 +37,7 @@ clean:
 	rm -rf $(OLP_BUILD_PATHS)/rel rebar.lock
 
 clean-all: clean docker-clean
-	rm -rf _build
+	rm -rf _build $(PATCH_BANNER)
 
 sources:
 	git submodule init
