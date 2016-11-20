@@ -7,3 +7,6 @@
 [submodule "lib/lutil"]
 	path = lib/lutil
 	url = https://github.com/lfex/lutil
+[submodule "lib/exemplar"]
+	path = lib/exemplar
+	url = https://github.com/lfex/exemplar
