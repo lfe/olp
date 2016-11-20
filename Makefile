@@ -56,7 +56,7 @@ update-sources: update-lfe update-libs
 	git commit lfe lib -m "Updated sources."
 
 add-lib:
-	git submodule add $(LFEX_ORG)/$(OLD_LIB) lib/$(OLP_LIB)
+	git submodule add $(LFEX_ORG)/$(OLP_LIB) lib/$(OLP_LIB)
 	git commit lib/$(OLP_LIB) -m "Added $(OLP_LIB) library to OLP."
 
 setup-rebar3:
