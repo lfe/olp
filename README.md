@@ -121,7 +121,20 @@ Size comparison of Docker images:
  * LFE, build tools, etc.:  879.6 MB
 
 
-## For OLP Developers [&#x219F;](#contents)
+## For LFE/OLP Application Developers [&#x219F;](#contents)
+
+There's noting to see here, yet :-) (The corageous may use OLP, but please see the map above and the reference to dragons and their whereabouts).
+
+If you are a developer interested in what you will be able to do with OLP in the future, the following tickets may be of interest to you:
+ 
+ * Examine Release Use Cases: #36
+ * Provide Multuple Means of OLP Installation: #37
+ * Standardize Release Documentation: #28
+
+Once those tickets are completed, we'll have more useful information to put in this section of the `README` :-)
+
+
+## For OLP Maintainers [&#x219F;](#contents)
 
 
 ### References [&#x219F;](#contents)
