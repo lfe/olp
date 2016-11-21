@@ -128,9 +128,9 @@ There's noting to see here, yet :-) (The corageous may use OLP, but please see t
 
 If you are a developer interested in what you will be able to do with OLP in the future, the following tickets may be of interest to you:
  
- * Examine Release Use Cases: #36
- * Provide Multuple Means of OLP Installation: #37
- * Standardize Release Documentation: #28
+ * [Examine Release Use Cases](https://github.com/lfe/olp/issues/36)
+ * [rovide Multuple Means of OLP Installation](https://github.com/lfe/olp/issues/37)
+ * [tandardize Release Documentation](https://github.com/lfe/olp/issues/28)
 
 Once those tickets are completed, we'll have more useful information to put in this section of the `README` :-)
 
