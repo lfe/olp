@@ -16,7 +16,7 @@
 * [Dependencies](#dependencies-)
 * [Build Steps](#build-steps-)
 * [Docker](#docker-)
-* [For LFE/OLP Application Developers](#for-lfe-otp-applicationdevelopers-)
+* [For LFE/OLP Application Developers](#for-lfeolp-application-developers-)
 * [For OLP Matinainers](#for-olp-maintainers-)
   * [References](#references-)
   * [Adding New Libs](#adding-new-libs-)
