@@ -28,32 +28,22 @@
 
 [![Here There Be Dragons][here there be dragons]][here there be dragons large]
 
-WARNING: This is an experimental work in progres.
+WARNING: This is an experimental work in progress. The functionality offered 
+by this codebase in creating an OLP release is base-bones, and only just
+in its first stages (also: no docs yet!)
 
-
-### LFE Upstream
-
-The ticket that
-is tracking this work at a high-level from the LFE perspective is here:
+**LFE Upstream**: The ticket that is tracking this work at a high-level from 
+the LFE perspective is here:
 
  * https://github.com/rvirding/lfe/issues/300
 
 
-### OLP Project
-
-
-#### Meta Ticket
-
-The ticket that is tracking the lower-level tasks of this particular avenue
-for exploration (e.g., OLP and git submodules) is here:
+**The OLP Project**: The ticket that is tracking the tasks for getting an
+OLP release created is here:
 
  * https://github.com/lfe/olp/issues/1
 
-
-#### Project Page
-
-Here's the Github Scrum board for getting an initial release of OLP out the
-door:
+There is also a Scrum-like project board here:
 
  * https://github.com/lfe/olp/projects/1
 
