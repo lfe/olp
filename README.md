@@ -161,7 +161,7 @@ $ make update-sources
 
 Apache Version 2 License
 
-Copyright (c) 2016 Robert Virding
+Copyright (c) 2016-2017 Robert Virding
 
 
 <!-- Named page links below: /-->
