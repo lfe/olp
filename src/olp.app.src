@@ -1,5 +1,5 @@
 {application, olp, [
-  {description, "Open LFE Platform"},
+  {description, "OLP LFE Platform"},
   {vsn, "0.2.0"},
   {modules, []},
   {registered, []},

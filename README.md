@@ -5,7 +5,7 @@
 [![Erlang Versions][erlang badge]][versions]
 [![Tags][github tags badge]][github tags]
 
-*Open LFE Platform*
+*OLP LFE Platform*
 
 [![OLP project logo][logo]][logo-large]
 
@@ -50,7 +50,7 @@ There is also a Scrum-like project board here:
 
 ## Introduction [&#x219F;](#contents)
 
-OLP is the Open LFE Platform, an OTP-style release build of LFE and supported
+OLP is the OLP LFE Platform, an OTP-style release build of LFE and supported
 community libraries, packaged together in the same way that the Erlang Runtime
 System and various Erlang libraries are packaged together.
 
